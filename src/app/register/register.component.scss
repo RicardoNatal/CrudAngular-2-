@@ -1,0 +1,36 @@
+* {
+  margin-top: 15px;
+  outline: 0;
+}
+
+input {
+  font-size: 15px;
+  width: 200px;
+  height: 25px;
+  background-color: inherit;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  border-bottom: 0.8px solid crimson;
+  margin-left: 43.5%;
+  border-radius: 3px;
+}
+
+button {
+  background-color: inherit;
+  border: 1px solid #dc143c;
+  color: crimson;
+  width: 80px;
+  height: 32px;
+  margin-left: 46.8%;
+  border-radius: 5px;
+}
+
+button:hover {
+  transition: all 0.6s;
+  background-color: crimson;
+  color: white;
+}
+
+
+

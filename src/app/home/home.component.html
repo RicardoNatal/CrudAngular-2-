@@ -1,0 +1,16 @@
+<div class="container">
+  <table width="150">
+    <thead>
+      <th>ID</th>
+      <th>Nome</th>
+      <th>Salário</th>
+      <th>Coisa Favorita</th>
+    </thead>
+    <tbody *ngFor="let pessoa of pessoas">
+      <td>{{ pessoa.id }}</td>
+      <td>{{ pessoa.nome }}</td>
+      <td>{{ pessoa.salario }}</td>
+      <td>{{ pessoa.coisaFavorita }}</td>
+    </tbody>
+  </table>
+</div>
